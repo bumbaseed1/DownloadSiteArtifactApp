@@ -4,7 +4,7 @@ document
         // Replace 'github_username', 'repository_name', and 'file_path' with your GitHub details
         var githubUsername = "bumbaseed1";
         var repositoryName = "ArtifactApp";
-        var filePath = "ArtfiactApp/apk/app-debug.apk";
+        var filePath = "ArtfiactApp/apk/debug/app-debug.apk";
 
         var fileURL = `https://raw.githubusercontent.com/${githubUsername}/${repositoryName}/main/${filePath}`;
         var fileName = filePath.substring(filePath.lastIndexOf("/") + 1);
